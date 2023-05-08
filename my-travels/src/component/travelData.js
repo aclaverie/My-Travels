@@ -1,5 +1,6 @@
-export default [
+const travelData = [
     {
+        id: "1",
         title: "San Fernando Hill",
         location: "San Fernando",
         googleMapsURL: "https://goo.gl/maps/vMu2nJtJ9LaeWfyH8?coh=178573&entry=tt",
@@ -9,6 +10,7 @@ export default [
         imageURL: "san-fernando-hill.jpg"        
     },
     {
+        id: "2",
         title: "Queen's Hall",
         location: "Saint Ann's Road, Port of Spain",
         googleMapsURL: "https://goo.gl/maps/P5FvuaBUYEVJCRGs6?coh=178573&entry=tt",
@@ -18,8 +20,9 @@ export default [
         imageURL: "queen-s-hall.jpg"        
     },
     {
+        id: "3",
         title: "Ortinola Estates",
-        location: "Maracas Valley, St Joseph, Trinidad",
+        location: "Maracas Valley, St Joseph",
         googleMapsURL: "https://goo.gl/maps/gDJS5qadvr5DRjHX7?coh=178573&entry=tt",
         startDate: "October 4th, 2020",
         endDate: "October 8th, 2020",
@@ -27,8 +30,9 @@ export default [
         imageURL: "ortinola-great-house.jpg"        
     },
     {
+        id: "4",
         title: "Icacos Point",
-        location: "Cedros, Trinidad",
+        location: "Cedros",
         googleMapsURL: "https://goo.gl/maps/gpxiDTVYRAUZvAZc8?coh=178573&entry=tt",
         startDate: "November 5th, 2019",
         endDate: "November 9th, 2019",
@@ -36,12 +40,15 @@ export default [
         imageURL: "icacos-point.jpg"        
     },
     {
+        id: "5",
         title: "Independence Square",
-        location: "Independence Square, Port Of Spain, Trinidad",
+        location: "Port Of Spain",
         googleMapsURL: "https://goo.gl/maps/Ugk3WVnvTaBqudtp6?coh=178573&entry=tt",
         startDate: "February 26, 2019",
         endDate: "March 3rd, 2019",
         description: "Independence Square also called Brian Lara Promenade learning the history of Trinidad's independence. The square is surrounded by government buildings including finance, courts, treasury and banks. The food market is up the street where you can buy all your fresh vegetables and fruit.",
         imageURL: "the-square.jpg"        
     }
-]
+];
+
+export default travelData;
